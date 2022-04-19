@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Nathan Araujo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fahrenheit to Celsius in JS</title>
+  </head>
+  <body>
+		<!-- javascript -->
+    <script src="./js/script.js"></script>
+		<!-- Header -->
+    <h1>Fahrenheit to Celsius in JS!</h1>
+		<table>
+			<tr>
+				<td>
+					<!--textboxes-->
+					<h3>Enter Fahrenheit or Celsius:</h3>
+					<form action="javascript:calcTempF()">
+						<label for="fahrenheit">Fahrenheit:</label>
+						<input type="number" step="any" id="fahrenheit" placeholder="fahrenheit"><br><br>
+						<input type="submit" value="Calculate Temperature">
+					</form>
+					<br><br>
+					
+					<form action="javascript:calcTempC()">
+						<label for="celsius">Celsius:</label>
+						<input type="number" step="any" id="celsius" placeholder="celsius"><br><br>
+						<input type="submit" value="Calculate Temperature">
+					</form>
+					<br><br>
+				</td>
+				<td width=45%>
+					<!-- image -->
+					<img src="./images/F to C.PNG" alt="Sphere" width="85%" height="auto"/>
+				</td>
+			</tr>
+		</table>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="tempF">
+		</div>
+		<div id="display-results">
+				<div id="tempC">
+			</div>
+		</div>
+  </body>
+</html>
