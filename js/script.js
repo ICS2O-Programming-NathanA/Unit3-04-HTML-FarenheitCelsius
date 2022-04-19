@@ -15,7 +15,7 @@ function calcTempF () {
 
 
   // calculate the temperature
-  let tempF = fahrenheit + 2 
+  let tempF = 9/5 * fahrenheit + 32
 
   // display the results
   document.getElementById('tempF').innerHTML = "The temperature is " + tempF.toFixed(2) + "°, in celsius."
